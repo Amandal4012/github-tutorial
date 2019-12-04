@@ -70,6 +70,9 @@ If you want to completely remove a repository (local & remote), you can use the 
 If you type `cd ~` by accident, you will be unable to cd into any of your repositories. To mend this, just do `cd ~` and you will be back to normal, and free to cd anywhere.
 
 ## Collaboration
+
 If you would like to work with someone on the same repository, you can do this with forking and cloning. 
 
-Forking works by 
+* The forking button is third from the right on the homepage of someone's repository. By forking, you are able to create your copy of someone else's work. This is used if you want to submit pull requests to the original owner, who can choose to deny or accept the adjustments that you have made to their code. They can admit these changes by doing `git pull`, successfully bringing in those changes 
+
+* The cloning button is the green one below the fork button. Different from forking, you cannot push changes to the repository if it is owned by someone else. It is used typically when you want your own copy of someone's work, like a game, and are not planning to make any changes. Copy the SSH key with the clipboard symbol, then go into your cs50 ide. Use `git clone [SSH key]` and it's complete!
