@@ -42,7 +42,7 @@ It's like a pair of keys, which let you work on projects related to Github witho
 * Then do `git add .` and `git commit -m "[message]"`. Put a message so you can look at it and understand the changes you made to your file later on!
 
 1. Create a new repository on Github and use the same name from your repository in your cs50 ide to this one.
-2. Then, you need to make this new repository your remote, essentially linking the two so changes in your cs50 ide can be moved onto the remote. You can do this by using `git remote add origin [url]`, which creates the link. 
+2. Then, you need to make this new repository your remote, essentially linking the two so changes in your cs50 ide can be moved onto the remote. You can do this by using `git remote add origin [url]`, which creates the link. The url you get can be sourced from the clone button, just click the clipboard icon and input that in the command. 
 3. After that, once you make any changes do `git push -u origin master`. This pushes the changes to the remote now. From now on, you can do git push, which will do the same and will be _easier_ to type!
 
 ---
